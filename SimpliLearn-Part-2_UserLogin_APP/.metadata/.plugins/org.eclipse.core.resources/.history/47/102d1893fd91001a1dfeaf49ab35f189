@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form{
+margin-right:0px;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>DashBoard</title>
+</head>
+<body bgcolor="">
+<div >
+
+  <form action="LogOut" method="post">
+      <input type="submit" class="fadeIn fourth"  name="logout" value="Logout">
+    </form>
+<hr>
+</div>
+<div >
+
+<h2 style="background-color:MediumSeaGreen; weight:italic;color:black;border-style:groove;">Login Successful  WelCome GreenArrow.com</h2>
+
+</div>
+
+</body>
+</html>

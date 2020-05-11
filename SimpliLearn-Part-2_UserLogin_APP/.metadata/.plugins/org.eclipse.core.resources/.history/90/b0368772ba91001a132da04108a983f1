@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#form{
+
+margin:25%;
+ padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="background-color:DodgerBlue" id=form>
+  <form action="Login" method="post">
+  <table>
+ <tr> <h2 style="color:while;weight:bold">UserLogin Form</h2></tr>
+    <tr><td>  <input type="text" id="login" class="fadeIn second" name="uName" placeholder="User Name"></td> </tr>
+    <tr><td>   <input type="text" id="password" class="fadeIn third" name="uPassword" placeholder="User Password"></td> </tr> 
+    <tr><td>   <input type="submit" class="fadeIn fourth" value="Log In"><tr><td> 
+      </table>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#form{
+
+margin-top:10%;
+margin-bottom:10%;
+margin-left:10%;
+ padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+}
+#form #form-control{
+margin:10%;
+}
+#form .form-group{
+
+    width:.5rem;
+    padding: 1.5%;
+}
+</style>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="background-color:DodgerBlue" id=form>
+  <form action="Login" method="post" id=form-control>
+  <h2 style="color:while;weight:bold;">UserLogin Form</h2>
+ <div class="form-group">
+  <input type="text" id="loginusr" name="uName" placeholder="User Name">
+  <span id="usr"></span>
+  </div>
+  <div class="form-group">
+      <input type="text" id="loginpwd"  name="uPassword" placeholder="User Password">
+      <span id="pwd"></span>
+      </div>
+      <div class="form-group">
+       <input type="submit" value="Log In">
+       </div>
+      
+    </form>
+</div>
+
+<script>
+function emptyValitadtion() {
+	var usr=document.getElementById("loginusr").value;
+	var pwd=document.getElementById("loginpwd").value;
+	if(usr=="")
+ document.getElementById("usr").innerHTML = "username Should not be empty";
+}
+else if(pwd=="")
+{
+	 document.getElementById("usr").innerHTML = "Password Should not be empty";
+}
+else if(usr=="" && pwd==""){
+	 document.getElementById("usr").innerHTML = "username and Password Should not be empty";
+}
+	
+</script>
+</body>
+
+</html>

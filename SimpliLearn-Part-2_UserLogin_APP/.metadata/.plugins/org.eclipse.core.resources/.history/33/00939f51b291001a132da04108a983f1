@@ -1,0 +1,16 @@
+package com.userLogin;
+
+public class ValidateUser {
+	
+	public boolean isValidUser(String userName,String userPassword) {
+		
+		System.out.println(userName userPassword);
+		if(userName.equals("GreenArrow") && userPassword.equals("OliverQueen")) {
+			return true;
+		}
+		
+		return false;
+		
+	}
+
+}
