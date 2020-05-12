@@ -826,3 +826,33 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 00:28:30.519
 !MESSAGE executing callback sts4.classpath.FmVlaueG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:34:13.319
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:34:13.320
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:34:13.322
+!MESSAGE buffering callback sts4.classpath.FmVlaueG UserLognApp false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:34:13.322
+!MESSAGE executing callback sts4.classpath.FmVlaueG 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:34:13.357
+!MESSAGE executing callback sts4.classpath.FmVlaueG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:35:39.382
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:35:39.383
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:35:39.384
+!MESSAGE buffering callback sts4.classpath.FmVlaueG UserLognApp false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:35:39.385
+!MESSAGE executing callback sts4.classpath.FmVlaueG 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 01:35:39.449
+!MESSAGE executing callback sts4.classpath.FmVlaueG SUCCESS [done]

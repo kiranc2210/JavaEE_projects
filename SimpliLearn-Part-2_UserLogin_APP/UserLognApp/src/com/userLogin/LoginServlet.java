@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
 
 		} else {
 			out.println(
-					"<h3 style=\"background-color:hsl(9, 100%, 64%);color:white; margin-left:35%; margin-right:35%;\">Invalide Username or Password!!!!!</h3>");
+					"<h3 style=\"background-color:hsl(9, 100%, 64%);color:white; margin-left:42%; margin-right:42%;\">Invalide Username or Password!!!!!</h3>");
 			RequestDispatcher reqDis = request.getRequestDispatcher("Login1.html");
 			reqDis.include(request, response);
 
