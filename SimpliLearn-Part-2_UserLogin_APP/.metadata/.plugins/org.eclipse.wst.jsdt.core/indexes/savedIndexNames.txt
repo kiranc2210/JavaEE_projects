@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+D:\SimpliLearn-Part-2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1044804030.index
-3050858442.index
-707963595.index
-495939042.index
-3008291766.index
-3816475737.index
-234818970.index

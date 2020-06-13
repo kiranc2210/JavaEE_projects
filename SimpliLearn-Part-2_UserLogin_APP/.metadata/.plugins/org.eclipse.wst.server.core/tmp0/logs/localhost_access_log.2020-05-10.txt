@@ -1,4 +1,0 @@
-0:0:0:0:0:0:0:1 - - [10/May/2020:11:24:37 +0530] "POST /UserLognApp/Login HTTP/1.1" 200 693
-0:0:0:0:0:0:0:1 - - [10/May/2020:11:24:37 +0530] "GET /UserLognApp/loginstyle.css HTTP/1.1" 304 -
-0:0:0:0:0:0:0:1 - - [10/May/2020:11:24:48 +0530] "POST /UserLognApp/Login HTTP/1.1" 200 501
-0:0:0:0:0:0:0:1 - - [10/May/2020:11:24:50 +0530] "POST /UserLognApp/LogOut HTTP/1.1" 200 557
