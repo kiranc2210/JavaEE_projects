@@ -1,0 +1,81 @@
+
+C:\LIBRE_TOOLS\usb_boot_bin_a0_m3_acast_04132016>usb_boot 1286 8174 ./ 8141
+main, 1245: verder_id/product_id: 0x1286/8174
+main, 1293: wait for connection on port: 8141
+main, 1296: telnet client started
+tcp_server_func, 875: server listening on port 8141
+tcp_server_func, 881: client connected.
+send_telnet_cmd, 727: sending 253, opt 0
+send_telnet_cmd, 727: sending 252, opt 1
+send_telnet_cmd, 727: sending 253, opt 3
+send_telnet_cmd, 727: sending 251, opt 0
+send_telnet_cmd, 727: sending 251, opt 3
+telnet_getchar, 820: recved 255, char  
+telnet_getchar, 834: recved 251, char √
+process_recved_telnet_cmd, 770: recved cmd 251, opt 0
+send_telnet_cmd, 727: sending 252, opt 1
+telnet_getchar, 820: recved 255, char  
+telnet_getchar, 834: recved 251, char √
+process_recved_telnet_cmd, 770: recved cmd 251, opt 3
+send_telnet_cmd, 727: sending 252, opt 1
+telnet_getchar, 820: recved 255, char  
+telnet_getchar, 834: recved 253, char ²
+process_recved_telnet_cmd, 770: recved cmd 253, opt 0
+send_telnet_cmd, 727: sending 254, opt 1
+telnet_getchar, 820: recved 255, char  
+telnet_getchar, 834: recved 253, char ²
+process_recved_telnet_cmd, 770: recved cmd 253, opt 3
+send_telnet_cmd, 727: sending 254, opt 1
+attach_fn, 1190: attach
+attach_fn, 1192:  -- (0000/0000)
+detach_fn, 1201: detach
+detach_fn, 1203:  -- (0000/0000)
+attach_fn, 1190: attach
+attach_fn, 1192:  -- (1286/8174)
+serve_one_target, 1069: libusb_init
+serve_one_target, 1077: libusb_open_device_with_vid_pid_subclass
+libusb_open_device_with_vid_pid_subclass, 224: vid/pid: 0x8086/0x9c26
+libusb_open_device_with_vid_pid_subclass, 224: vid/pid: 0x0424/0x2514
+libusb_open_device_with_vid_pid_subclass, 224: vid/pid: 0x067b/0x2303
+libusb_open_device_with_vid_pid_subclass, 224: vid/pid: 0x0b97/0x7761
+libusb_open_device_with_vid_pid_subclass, 224: vid/pid: 0x0b97/0x7772
+libusb_open_device_with_vid_pid_subclass, 224: vid/pid: 0x0c45/0x649d
+libusb_open_device_with_vid_pid_subclass, 224: vid/pid: 0x1286/0x8174
+libusb_open_device_with_vid_pid_subclass, 228: Serial Number Str Idx: 3
+libusb_open_device_with_vid_pid_subclass, 241: serial number: S/N:12345678A
+find_boot_target, 264: bus number: 1
+find_boot_target, 265: port: 5
+ path: 1.5serve_one_target, 1084: sub_class: 254
+serve_one_target, 1093: libusb_detach_kernel_driver error -12, ignore it
+serve_one_target, 1096: claimed interface
+serve_one_target, 1103: pthread_create poll_thread_main
+serve_one_target, 1109: allocate_transfer
+poll_thread_main, 632: poll thread running
+serve_one_target, 1117: submit_first_urbs
+submit_data_in_urb, 329:
+submit_intr_in_urb, 454:
+cb_intr_in, 424: received len 28
+process_img_request, 368: received request from dongle to send image ./08_IMAGE.
+
+serve_one_target, 1136: start processing image ./08_IMAGE request.
+get_img_size, 496: size 144
+feed_buf, 515: sending image header package, size 144.
+cb_img_write, 576: actual data wrote 8, total_data_wrote 0
+feed_buf, 520: read 144 bytes from image file.
+cb_img_write, 576: actual data wrote 144, total_data_wrote 144
+cb_data_recv, 300: img transfer status: 4
+poll_thread_main, 643: poll thread shutting down
+serve_one_target, 1169: exited usbi_default_context -- 00000000
+detach_fn, 1201: detach
+detach_fn, 1203:  -- (1286/8174)
+
+
+
+
+setenv hostpresent 0
+
+
+
+
+one target device connected.
+2d16e80950886a3ci*m*g*r*qtarget device disconnected.

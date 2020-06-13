@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;commons-fileupload-1.2.1-sources.jar&apos; to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;OnlineSchoolManagementSystem-master&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original element: &apos;OnlineSchoolManagementSystem-master/build/web/WEB-INF/lib/commons-fileupload-1.2.1-sources.jar&apos;" description="Copy source folder" element1="/build\/web\/WEB-INF\/lib\/commons-fileupload-1.2.1-sources.jar" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1590917648685" target="/UserLognApp/WebContent/WEB-INF/lib" version="1.0"/>
+</session>

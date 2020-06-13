@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+.wrap {
+    width: 100%;
+}
+
+.wrap table {
+    width: 100%;
+    table-layout: fixed;
+    
+}
+
+
+table tr td {
+    padding: 5px;
+    border: 1px solid #bebebe;
+    width: 50px;
+    word-wrap: break-word;
+}
+
+table.head tr td {
+    background: #eee;
+}
+
+.inner_table {
+    height: 200px;
+    overflow-y: auto;
+	    
+}
+
+
+span.error {
+	color: red;
+}
+span.success {
+	color: green;
+}
+
+
+

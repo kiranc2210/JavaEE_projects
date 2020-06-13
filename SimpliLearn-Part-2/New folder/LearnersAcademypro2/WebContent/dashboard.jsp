@@ -1,0 +1,1 @@
+  <div style=" width: 75%; margin-left:170px;">  <%@ include file="admin-nav.jsp" %>  </div>

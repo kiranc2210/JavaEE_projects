@@ -1,0 +1,162 @@
+package com.LearnersAcademy.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.SQLException;
+
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.LearnersAcademy.dao.AdminDao;
+import com.LearnersAcademy.model.AdminBean;
+@WebServlet("/")
+public class AdminControl extends HttpServlet{
+
+	
+	
+		private static final long serialVersionUID = 1L;
+		private AdminDao adminDao;
+		
+		public void init() {
+			adminDao = new AdminDao();
+		}
+
+		protected void doPost(HttpServletRequest request, HttpServletResponse response)
+				throws ServletException, IOException {
+			doGet(request, response);
+		}
+
+		protected void doGet(HttpServletRequest request, HttpServletResponse response)
+				throws ServletException, IOException {
+			String action = request.getServletPath();
+
+			try {
+				switch (action) {
+				case "/new":
+					showNewForm(request, response);
+					break;
+				case "/register":
+					registerUser(request, response);
+					break;
+				case "/delete":
+					deleteUser(request, response);
+					break;
+				case "/edit":
+					showEditForm(request, response);
+					break;
+				case "/update":
+					updateUser(request, response);
+					break;
+				case "/redirectToLogIn":
+					redirectToLogIn(request, response);
+					break;
+				case "/login":
+					loginUser(request, response);
+					break;
+				default:
+					redirectToIndex(request, response);
+					break;
+				}
+			} catch (SQLException ex) {
+				throw new ServletException(ex);
+			}
+		}
+
+		private void redirectToIndex(HttpServletRequest request, HttpServletResponse response) throws IOException {
+			response.sendRedirect("index.jsp");
+		}
+		
+		private void redirectToLogIn(HttpServletRequest request, HttpServletResponse response) throws IOException {
+			response.sendRedirect("login.jsp");
+		}
+//		private void listUser(HttpServletRequest request, HttpServletResponse response)
+//				throws SQLException, IOException, ServletException {
+//			List<AdminBean> listAdmin = adminDao.getAllAdmin();
+//			request.setAttribute("listAdmin", listAdmin);
+//			RequestDispatcher dispatcher = request.getRequestDispatcher("user-list.jsp");
+//			dispatcher.forward(request, response);
+//		}
+
+		private void showNewForm(HttpServletRequest request, HttpServletResponse response)
+				throws ServletException, IOException {
+			RequestDispatcher dispatcher = request.getRequestDispatcher("AdminReg.jsp");
+			dispatcher.forward(request, response);
+		}
+
+		private void showEditForm(HttpServletRequest request, HttpServletResponse response)
+				throws SQLException, ServletException, IOException {
+			int id = Integer.parseInt(request.getParameter("id"));
+			AdminBean existingAdmin = adminDao.getAdmin(id);
+			RequestDispatcher dispatcher = request.getRequestDispatcher("AdminReg.jsp");
+			request.setAttribute("user", existingAdmin);
+			dispatcher.forward(request, response);
+
+		}
+
+		private void registerUser(HttpServletRequest request, HttpServletResponse response) 
+				throws SQLException, IOException, ServletException {
+			String firstname = request.getParameter("firstname");
+			String lastname = request.getParameter("lastname");
+			String address = request.getParameter("address");
+			String email = request.getParameter("email");
+			String phone = request.getParameter("phone");
+			String password = request.getParameter("password");
+			AdminBean newAdmin = new AdminBean(  firstname,  lastname,  address,  email,  phone,
+					 password );
+			if(adminDao.addAdmin(newAdmin)) {
+				RequestDispatcher dispatcher = request.getRequestDispatcher("success.jsp");
+				dispatcher.forward(request, response);
+			}
+		}
+
+		private void updateUser(HttpServletRequest request, HttpServletResponse response) 
+				throws SQLException, IOException {
+			String firstname = request.getParameter("firstname");
+			String lastname = request.getParameter("lastname");
+			String address = request.getParameter("address");
+			String email = request.getParameter("email");
+			String phone = request.getParameter("phone");
+			String password = request.getParameter("password");
+			AdminBean existingAdmin = new AdminBean(  firstname,  lastname,  address,  email,  phone,
+					 password );
+			adminDao.updateAdmin(existingAdmin);
+			response.sendRedirect("list");
+		}
+
+		private void deleteUser(HttpServletRequest request, HttpServletResponse response) 
+				throws SQLException, IOException {
+			int id = Integer.parseInt(request.getParameter("id"));
+			adminDao.deleteAdmin(id);
+			response.sendRedirect("list");
+		}
+		private void loginUser(HttpServletRequest request, HttpServletResponse response) throws SQLException, IOException, ServletException{
+			PrintWriter out=response.getWriter();
+			String email = request.getParameter("email");
+			String password = request.getParameter("password");
+			
+			AdminBean login=new AdminBean();
+			login.setEmail(email);
+			login.setPassword(password);
+			
+			login=adminDao.getAdminByemain(login);
+			
+			if((email.equals(login.getEmail())) && password.equals(login.getPassword())){
+				RequestDispatcher dispatcher = request.getRequestDispatcher("AdminReg.jsp");
+				request.setAttribute("loginadmin", login);
+				dispatcher.forward(request, response);
+			}
+			else {
+				RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+				out.print("invalide Email and password!!!!");
+				dispatcher.include(request, response);
+			}
+			
+		}
+	}
+
+

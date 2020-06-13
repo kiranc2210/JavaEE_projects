@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.LearnersAcademy.model.StudentBean"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="com.LearnersAcademy.dao.StudentDaoI"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="com.LearnersAcademy.model.TeacherBean"/>
+<fullyQualifiedTypeName name="com.LearnersAcademy.dao.TeacherDaoI"/>
+<fullyQualifiedTypeName name="com.LearnersAcademy.dao.TeacherDaoImpl"/>
+<fullyQualifiedTypeName name="com.LearnersAcademy.dao.ClasseDaoI"/>
+<fullyQualifiedTypeName name="com.LearnersAcademy.dao.ClasseDaoImp"/>
+<fullyQualifiedTypeName name="com.LearnersAcademy.model.ClassBean"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="com.LearnersAcademy.model.SubjectBean"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>

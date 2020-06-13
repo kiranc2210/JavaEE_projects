@@ -1,0 +1,489 @@
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/LUCI_DISCOVERY(  576): makeLSSDPPacket() Hegal_H190
+E/LUCI_DISCOVERY(  576): sendData() success with 275 bytes
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): -----Stop received -------
+E/DMR     (  698):
+E/DMR     (  698):
+E/DMR     (  698):  DMR STOP, stop and reset libre player
+E/DMR     (  698):
+E/DMR     (  698): ---- in playback notify  :7 ---
+I/ServiceManager(  571): check_service('media.player') ptr = 0x7
+E/AudioFlinger(  574): PT Unmute After Muteonseek
+E/AudioFlinger(  574): presentationComplete() reset: mPresentationCompleteFrames 804854 audioHalFrames 1014
+E/AudioFlinger(  574): AnpAsync MixerSync LOST for Track[0] mMixerStatus = 0
+E/AudioFlinger(  574): AnpAsync MixerSync LOST for Track[0] mMixerStatus = 0
+E/AudioFlinger(  574): presentationComplete() session 124 complete: framesWritten 804864
+E/AudioFlinger(  574): remove track
+E/AudioFlinger(  574):
+E/AudioFlinger(  574):
+E/AudioFlinger(  574): remove track SpotifyTime Sec = 816196
+E/AudioFlinger(  574): Secs = 3520
+E/AudioFlinger(  574):
+E/AudioTrack(  574): AudioTrack stop 0x42dec0
+W/TimedEventQueue(  574): Event 1279 was not found in the queue, already cancelled?
+E/AudioMixer(  574): AudioMixer::deleteTrackName(4096)
+E/DMR     (  698): getPlayerSSListener - 0x289850
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=51 CommandStatus=0 mCRC=0 mDataLen=1 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 51 bytesWritten = 11 m_fd = 0xd, data = 1
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 51....
+E/luci_helper(  582): LUCIHelper::LUCI_TransportListener::onMessageBoxChanged
+E/MB_HANDLER(  582): Messagebox_handler::MessageBoxAlert id = 51
+E/MB_HANDLER(  582):
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698):
+E/DMR     (  698):
+E/DMR     (  698):  Send stop notification return true
+E/DMR     (  698):
+E/DMR     (  698): -SetAVTransportURI: uri :http://192.168.0.103:11891/audio-item-163178
+E/DMR     (  698):  metadata :
+E/DMR     (  698):  <DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="audio-item-293" parentID="2" restricted="0"><dc:title><![CDATA[WAV_iTunes8_08000_S_8]]></dc:title><dc:creator><![CDATA[<unknown>]]></dc:creator><upnp:class>object.item.audioItem.musicTrack</upnp:class><upnp:album><![CDATA[8bit]]></upnp:album><upnp:albumArtURI>http://192.168.0.103:11891/audio-item-163178/album_art</upnp:albumArtURI><upnp:artist role="Performer"><![CDATA[<unknown>]]></upnp:artist><res protocolInfo="http-get:*:audio/x-wav:DLNA.ORG_PN=MP3;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=01500000000000000000000000000000" size="318976" duration="00:00:19">http://192.168.0.103:11891/audio-item-163178</res></item></DIDL-Lite>
+E/DMR     (  698): ----checkplayer is called----
+E/DMR     (  698): DMR SetHostName = http://192.168.0.103:11891/audio-item-163178
+E/DMR     (  698): DMR  = 192.168.0.103
+E/DMR     (  698):
+E/DMR     (  698): ResolveDNSNameForPlayURL test = http://192.168.0.103:11891/audio-item-163178
+E/DMR     (  698): ----ProtocolInfo :http-get:*:audio/x-wav:DLNA.ORG_PN=MP3;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=01500000000000000000000000000000----
+E/DMR     (  698): ---title :WAV_iTunes8_08000_S_8 ---
+E/DMR     (  698): ---url :http://192.168.0.103:11891/audio-item-163178 ---
+E/DMR     (  698): ---creator :<unknown> ---
+E/DMR     (  698): ---artist :<unknown> ---
+E/DMR     (  698): ---albumart :http://192.168.0.103:11891/audio-item-163178/album_art ---
+E/DMR     (  698): ---album :8bit ---
+E/DMR     (  698): the value of the env eastechcust is 0
+E/DMR     (  698): B4 SS in set AV
+E/DMR     (  698): getPlayerSSListener - 0x289850
+E/SourceSwitch-Native(  574): PlayMySource new - 0x42e808 new_type- 2 current - 0x42fe60 current_type - 2  ++
+I/SourceSwitch-Native(  574): PlayMySource returns same source type 2
+E/DMR     (  698): After SS in set AV
+E/MediaPlayerService(  574): Mediaplayertype is 3
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 64 buffer = 33
+E/AudioSink(  574): AudioOutput volInt = 33 mLeftVolume = 0.330000
+I/AwesomePlayer(  574): setDataSource_l(URL suppressed)
+E/DMR     (  698): Status of setdatasource from SetAV 0
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 64 buffer = 33
+E/SPOTIFY (  700): Spotify ConnectionNotify event(0-Login, 1-Logout, rest Error) = 7
+E/SPOTIFY (  700): Spotify ConnectionNotify login error event = 7
+E/DMR     (  698): -----Play received -------
+E/DMR     (  698): -----DMRPlay----
+E/DMR     (  698): getPlayerSSListener - 0x289850
+E/ChromiumHTTPDataSourceSupport(  574): SfDelegate::onInitiateConnection sHTTPHost = 192.168.0.103
+E/ChromiumHTTPDataSourceSupport(  574): iHttpHostLength = 13
+I/qtaguid (  574): Tagging socket 30 with tag 0(0) for uid 0 failed errno=-2
+E/AwesomePlayer(  574): ----contentType :audio/x-wav -----
+E/NuCachedSource2(  574): NuCachedSource2 ::onread() failure condition
+E/DMR     (  698): Timer Sem Wait Start
+E/NuCachedSource2(  574): NuCachedSource2 ::readat  came out of wait condition
+E/NuCachedSource2(  574): NuCachedSource2 ::readat  came out of wait condition
+E/NuCachedSource2(  574): NuCachedSource2 ::readat  came out of wait condition
+E/NuCachedSource2(  574): NuCachedSource2 ::readat  came out of wait condition
+E/AwesomePlayer(  574): Manoj AwesomePlayer::setDataSource_l (Extrator)mBitrate = -1 bits/sec
+E/AwesomePlayer(  574): Manoj AwesomePlayer::setDataSource_l there is an audio source
+E/AwesomePlayer(  574): RAW_FLAC_WMA
+E/DMR     (  698):
+E/DMR     (  698):
+E/DMR     (  698):  Send play notification
+E/DMR     (  698):
+E/AudioTrack(  574): Manoj : AudioTrack thtread is created
+E/AudioFlinger(  574): AudioFlinger::  findMatchingOutputFs()
+E/AudioFlinger(  574): sampleRate = 8000 SampleRateOut = 44100 newOutputFs = 44100 thread_instance = 0x40fb70
+E/AudioMixer(  574): GetTrackName add track (0)
+E/AudioTrack(  574): ======AudioTrack::setVolume entry with 0.330000
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=64 CommandStatus=0 mCRC=0 mDataLen=2 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 64 bytesWritten = 12 m_fd = 0xd, data = 33
+E/AudioTrack(  574): ======AudioTrack::setVolume entry with 0.330000
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=64 CommandStatus=0 mCRC=0 mDataLen=2 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 64 bytesWritten = 12 m_fd = 0xd, data = 33
+E/AudioTrack(  574): start 0x430850
+E/AudioFlinger(  574): start(4096), calling pid 698 session 125
+E/DMR     (  698): ---- in playback notify  :6 ---
+E/DMR     (  698): MEDIA_STARTED
+E/DMR     (  698): DMR sending LUCI_MESSAGEBOX_ISPLAYSTATUS
+I/ServiceManager(  571): check_service('media.player') ptr = 0x7
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=54 CommandStatus=0 mCRC=0 mDataLen=7 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 54 bytesWritten = 17 m_fd = 0xd, data = success
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 64 buffer = 33
+E/AudioTrack(  574): ======AudioTrack::setVolume entry with 0.330000
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=64 CommandStatus=0 mCRC=0 mDataLen=2 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 64 bytesWritten = 12 m_fd = 0xd, data = 33
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=51 CommandStatus=0 mCRC=0 mDataLen=1 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 51 bytesWritten = 11 m_fd = 0xd, data = 0
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 51....
+E/luci_helper(  582): LUCIHelper::LUCI_TransportListener::onMessageBoxChanged
+E/MB_HANDLER(  582): Messagebox_handler::MessageBoxAlert id = 51
+E/MB_HANDLER(  582):
+E/DMR     (  698): sp<ILuciTransport> getInstance()
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+I/ServiceManager(  571): check_service('UIManager') ptr = 0xa
+E/DMR     (  698): a<--total duration =19000
+E/        (  698): BpUIManager updatePlayView
+E/        (  581): onTransact updatePlayView
+E/PlayModeCtrl(  581): a<--album =8bit
+E/PlayModeCtrl(  581): a<--artist =<unknown>
+E/PlayModeCtrl(  581): a<--coverArt =http://192.168.0.103:11891/audio-item-163178/album_art
+E/PlayModeCtrl(  581): a<--trackName =WAV_iTunes8_08000_S_8
+E/PlayModeCtrl(  581): a<--playUrl =http://192.168.0.103:11891/audio-item-163178
+E/PlayModeCtrl(  581): a<--totalTime =19000
+I/UIModeManager(  581): Before ChangeModeControl CurrentMode - PlayMode NewMode - PlayMode object - 0x739998
+I/UIModeManager(  581): After ChangeModeControl CurrentMode - PlayMode NewMode - PlayMode object - 0x739998
+I/ViewCtrl(  581): switchView PreventUIUpdate - FALSE CurrentView - PlayView NewView - PlayView
+E/ViewCtrl(  581): Draw View CurrentView - PlayView NewView - PlayView
+E/PlayView(  581): Album = 8bit
+E/PlayView(  581): Artist = <unknown>
+E/PlayView(  581): TrackName = WAV_iTunes8_08000_S_8
+E/PlayView(  581): PlayState = 2
+E/PlayView(  581): Current time = -1
+E/PlayView(  581): PlayTime = 19000
+E/PlayView(  581): Playlist = (null)
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 50 buffer = 2
+I/PlayView(  581): PlayView::drawView() Current source = 2
+E/AudioResampler(  574): Unsupported sample format, 32 bits, 2 channels
+E/resampler(  574): create_resampler() In SR 8000 Out SR 44100 channels 2
+E/AudioSRC(  574): resampler created with return code=0 number of channels = 2
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 51 buffer = 0
+I/PlayView(  581): PlayView::drawView() play_state = 0
+E/PlayView(  581): PlayView json - {"CMD ID":3,"Title":"PlayView","Window CONTENTS":{"Album":"8bit","Artist":"<unknown>","ControlsJson":"null","CoverArtUrl":"http://192.168.0.103:11891/audio-item-163178/album_art","Current Source":2,"Current_time":-1,"Fav_Idx":-1,"Favourite":false,"Genre":"null","PlayState":0,"PlayUrl":"http://192.168.0.103:11891/audio-item-163178","PlaylistName":"null","Repeat":2,"Shuffle":1,"TotalTime":19000,"TrackName":"WAV_iTunes8_08000_S_8"}}
+E/PlayView(  581):
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=42 CommandStatus=0 mCRC=0 mDataLen=434 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 42....
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698):  Out of Timer Sem
+I/qtaguid (  574): Untagging socket 30 failed errno=-2
+E/NuCachedSource2(  574): fetchInternal::Received Data less than a Page, EOS??
+I/NuCachedSource2(  574): ERROR_END_OF_STREAM
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=4 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): -----Stop received -------
+E/DMR     (  698):
+E/DMR     (  698):
+E/DMR     (  698):  DMR STOP, stop and reset libre player
+E/DMR     (  698):
+E/DMR     (  698): ---- in playback notify  :7 ---
+I/ServiceManager(  571): check_service('media.player') ptr = 0x7
+E/AudioFlinger(  574): PT Unmute After Muteonseek
+E/AudioFlinger(  574): presentationComplete() reset: mPresentationCompleteFrames 883190 audioHalFrames 1014
+E/AudioFlinger(  574): AnpAsync MixerSync LOST for Track[0] mMixerStatus = 0
+E/AudioFlinger(  574): AnpAsync MixerSync LOST for Track[0] mMixerStatus = 0
+E/AudioFlinger(  574): presentationComplete() session 125 complete: framesWritten 883200
+E/AudioFlinger(  574): remove track
+E/AudioFlinger(  574):
+E/AudioFlinger(  574):
+E/AudioFlinger(  574): remove track SpotifyTime Sec = 592572
+E/AudioFlinger(  574): Secs = 3522
+E/AudioFlinger(  574):
+E/AudioTrack(  574): AudioTrack stop 0x430850
+W/TimedEventQueue(  574): Event 1282 was not found in the queue, already cancelled?
+E/AudioMixer(  574): AudioMixer::deleteTrackName(4096)
+E/DMR     (  698): getPlayerSSListener - 0x289850
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=51 CommandStatus=0 mCRC=0 mDataLen=1 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 51 bytesWritten = 11 m_fd = 0xd, data = 1
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 51....
+E/luci_helper(  582): LUCIHelper::LUCI_TransportListener::onMessageBoxChanged
+E/MB_HANDLER(  582): Messagebox_handler::MessageBoxAlert id = 51
+E/MB_HANDLER(  582):
+E/DMR     (  698):
+E/DMR     (  698):
+E/DMR     (  698):  Send stop notification return true
+E/DMR     (  698):
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): -SetAVTransportURI: uri :http://192.168.0.103:11891/audio-item-163177
+E/DMR     (  698):  metadata :
+E/DMR     (  698):  <DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="audio-item-293" parentID="2" restricted="0"><dc:title><![CDATA[1kHz_8b_96KHz_stereo_60s]]></dc:title><dc:creator><![CDATA[<unknown>]]></dc:creator><upnp:class>object.item.audioItem.musicTrack</upnp:class><upnp:album><![CDATA[8bit]]></upnp:album><upnp:albumArtURI>http://192.168.0.103:11891/audio-item-163177/album_art</upnp:albumArtURI><upnp:artist role="Performer"><![CDATA[<unknown>]]></upnp:artist><res protocolInfo="http-get:*:audio/x-wav:DLNA.ORG_PN=MP3;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=01500000000000000000000000000000" size="11520044" duration="00:01:00">http://192.168.0.103:11891/audio-item-163177</res></item></DIDL-Lite>
+E/DMR     (  698): ----checkplayer is called----
+E/DMR     (  698): DMR SetHostName = http://192.168.0.103:11891/audio-item-163177
+E/DMR     (  698): DMR  = 192.168.0.103
+E/DMR     (  698):
+E/DMR     (  698): ResolveDNSNameForPlayURL test = http://192.168.0.103:11891/audio-item-163177
+E/DMR     (  698): ----ProtocolInfo :http-get:*:audio/x-wav:DLNA.ORG_PN=MP3;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=01500000000000000000000000000000----
+E/DMR     (  698): ---title :1kHz_8b_96KHz_stereo_60s ---
+E/DMR     (  698): ---url :http://192.168.0.103:11891/audio-item-163177 ---
+E/DMR     (  698): ---creator :<unknown> ---
+E/DMR     (  698): ---artist :<unknown> ---
+E/DMR     (  698): ---albumart :http://192.168.0.103:11891/audio-item-163177/album_art ---
+E/DMR     (  698): ---album :8bit ---
+E/DMR     (  698): the value of the env eastechcust is 0
+E/DMR     (  698): B4 SS in set AV
+E/DMR     (  698): getPlayerSSListener - 0x289850
+E/SourceSwitch-Native(  574): PlayMySource new - 0x41db18 new_type- 2 current - 0x42e808 current_type - 2  ++
+I/SourceSwitch-Native(  574): PlayMySource returns same source type 2
+E/DMR     (  698): After SS in set AV
+E/MediaPlayerService(  574): Mediaplayertype is 3
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 64 buffer = 33
+E/AudioSink(  574): AudioOutput volInt = 33 mLeftVolume = 0.330000
+I/AwesomePlayer(  574): setDataSource_l(URL suppressed)
+E/DMR     (  698): Status of setdatasource from SetAV 0
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 64 buffer = 33
+E/DMR     (  698): -----Play received -------
+E/DMR     (  698): -----DMRPlay----
+E/DMR     (  698): getPlayerSSListener - 0x289850
+E/ChromiumHTTPDataSourceSupport(  574): SfDelegate::onInitiateConnection sHTTPHost = 192.168.0.103
+E/ChromiumHTTPDataSourceSupport(  574): iHttpHostLength = 13
+I/qtaguid (  574): Tagging socket 30 with tag 0(0) for uid 0 failed errno=-2
+E/AwesomePlayer(  574): ----contentType :audio/x-wav -----
+E/NuCachedSource2(  574): NuCachedSource2 ::onread() failure condition
+E/NuCachedSource2(  574): NuCachedSource2 ::readat  came out of wait condition
+E/AwesomePlayer(  574): Manoj AwesomePlayer::setDataSource_l (Extrator)mBitrate = -1 bits/sec
+E/AwesomePlayer(  574): Manoj AwesomePlayer::setDataSource_l there is an audio source
+E/AwesomePlayer(  574): RAW_FLAC_WMA
+E/DMR     (  698):
+E/DMR     (  698):
+E/DMR     (  698):  Send play notification
+E/DMR     (  698):
+E/AudioTrack(  574): Manoj : AudioTrack thtread is created
+E/AudioFlinger(  574): AudioFlinger::  findMatchingOutputFs()
+E/AudioFlinger(  574): sampleRate = 96000 SampleRateOut = 44100 newOutputFs = 88200 thread_instance = 0x40fb70
+E/AudioFlinger(  574): DYNAMICTEST - Change output settings  sampleRateOut[88200], formatOut [3]
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=230 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 230 bytesWritten = 15 m_fd = 0xd, data = 88200
+E/AudioFlinger(  574):  CreateTrack: waiting for mWaitfotAlertrecv.wait
+E/UART_CONTROL(  576): ******************OK.. WE GOT SOMETHING**************UART HEADER READ SUCCESS readBytes = 10
+E/UART_CONTROL(  576): RemoteID =43690
+E/UART_CONTROL(  576):  CommandType 2
+E/UART_CONTROL(  576):  Command 230
+E/UART_CONTROL(  576): CommandStatus 0
+E/UART_CONTROL(  576): CRC 0
+E/UART_CONTROL(  576): DataLen7
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 230....
+E/UART_CONTROL(  576): Read data via UART
+E/luci_helper(  574): LUCIHelper::LUCI_TransportListener::onMessageBoxChanged
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 230 buffer = success
+E/AudioStreamOutSink(  574): LUCIHelper::onMessageBoxChanged 230
+E/AudioFlinger(  574): CreateTrack: mWaitforAlertrecv done ! ! !
+E/AudioFlinger(  574):  CreateTrack: ///// got LUCI_MESSAGEBOX_AUDIO_OUTPUT_FS   after 0.207576 seconds
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 20 buffer = (null)
+E/luci_udp_control(  576): LUCINetworkController::write : Ignoring Remote ID which is not Valid
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 230 bytesWritten = 10 m_fd = 0xd, data = (null)
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/SPOTIFY (  700): Spotify ConnectionNotify event(0-Login, 1-Logout, rest Error) = 7
+E/SPOTIFY (  700): Spotify ConnectionNotify login error event = 7
+E/DMR     (  698): Timer Sem Wait Start
+E/AudioFlinger(  574): AudioFlinger::PlaybackThread::threadLoop_standby()
+E/AudioFlinger(  574): ATL Going to Sleep thread 0x40fb70 type 0 TID 619 going to sleep
+E/AudioFlinger(  574): DYNAMICTEST mWaitforStandby came out of wait
+E/audio_hw_primary(  574): DYNAMICTEST - out_set_sample_rate 88200
+E/AudioMixer(  574): DYNAMICTEST - AudioMixer::setSampleRate - 88200
+E/AudioMixer(  574): GetTrackName add track (0)
+E/AudioTrack(  574): ======AudioTrack::setVolume entry with 0.330000
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=64 CommandStatus=0 mCRC=0 mDataLen=2 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 64 bytesWritten = 12 m_fd = 0xd, data = 33
+E/AudioTrack(  574): ======AudioTrack::setVolume entry with 0.330000
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=64 CommandStatus=0 mCRC=0 mDataLen=2 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 64 bytesWritten = 12 m_fd = 0xd, data = 33
+E/AudioTrack(  574): start 0x42c858
+E/AudioFlinger(  574): start(4096), calling pid 698 session 126
+E/DMR     (  698): ---- in playback notify  :6 ---
+E/DMR     (  698): MEDIA_STARTED
+E/DMR     (  698): DMR sending LUCI_MESSAGEBOX_ISPLAYSTATUS
+I/ServiceManager(  571): check_service('media.player') ptr = 0x7
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=54 CommandStatus=0 mCRC=0 mDataLen=7 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 54 bytesWritten = 17 m_fd = 0xd, data = success
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 64 buffer = 33
+E/AudioTrack(  574): ======AudioTrack::setVolume entry with 0.330000
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=64 CommandStatus=0 mCRC=0 mDataLen=2 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 64 bytesWritten = 12 m_fd = 0xd, data = 33
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=51 CommandStatus=0 mCRC=0 mDataLen=1 SocketInfo=21
+E/UART_CONTROL(  576):  LUCIUARTController::write
+E/UART_CONTROL(  576):  UART write() SUCCESS ..MID = 51 bytesWritten = 11 m_fd = 0xd, data = 0
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 51....
+E/luci_helper(  582): LUCIHelper::LUCI_TransportListener::onMessageBoxChanged
+E/MB_HANDLER(  582): Messagebox_handler::MessageBoxAlert id = 51
+E/MB_HANDLER(  582):
+E/DMR     (  698): sp<ILuciTransport> getInstance()
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+I/ServiceManager(  571): check_service('UIManager') ptr = 0xa
+E/DMR     (  698): a<--total duration =60000
+E/        (  698): BpUIManager updatePlayView
+E/        (  581): onTransact updatePlayView
+E/PlayModeCtrl(  581): a<--album =8bit
+E/PlayModeCtrl(  581): a<--artist =<unknown>
+E/PlayModeCtrl(  581): a<--coverArt =http://192.168.0.103:11891/audio-item-163177/album_art
+E/PlayModeCtrl(  581): a<--trackName =1kHz_8b_96KHz_stereo_60s
+E/PlayModeCtrl(  581): a<--playUrl =http://192.168.0.103:11891/audio-item-163177
+E/PlayModeCtrl(  581): a<--totalTime =60000
+I/UIModeManager(  581): Before ChangeModeControl CurrentMode - PlayMode NewMode - PlayMode object - 0x739998
+I/UIModeManager(  581): After ChangeModeControl CurrentMode - PlayMode NewMode - PlayMode object - 0x739998
+I/ViewCtrl(  581): switchView PreventUIUpdate - FALSE CurrentView - PlayView NewView - PlayView
+E/ViewCtrl(  581): Draw View CurrentView - PlayView NewView - PlayView
+E/PlayView(  581): Album = 8bit
+E/PlayView(  581): Artist = <unknown>
+E/PlayView(  581): TrackName = 1kHz_8b_96KHz_stereo_60s
+E/PlayView(  581): PlayState = 2
+E/PlayView(  581): Current time = -1
+E/PlayView(  581): PlayTime = 60000
+E/PlayView(  581): Playlist = (null)
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 50 buffer = 2
+I/PlayView(  581): PlayView::drawView() Current source = 2
+E/LUCITransportService(  576): LUCITransportService::readRemoteMessage MID = 51 buffer = 0
+I/PlayView(  581): PlayView::drawView() play_state = 0
+E/PlayView(  581): PlayView json - {"CMD ID":3,"Title":"PlayView","Window CONTENTS":{"Album":"8bit","Artist":"<unknown>","ControlsJson":"null","CoverArtUrl":"http://192.168.0.103:11891/audio-item-163177/album_art","Current Source":2,"Current_time":-1,"Fav_Idx":-1,"Favourite":false,"Genre":"null","PlayState":0,"PlayUrl":"http://192.168.0.103:11891/audio-item-163177","PlaylistName":"null","Repeat":2,"Shuffle":1,"TotalTime":60000,"TrackName":"1kHz_8b_96KHz_stereo_60s"}}
+E/PlayView(  581):
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=42 CommandStatus=0 mCRC=0 mDataLen=437 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 42....
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698):  Out of Timer Sem
+E/AudioFlinger(  574): ATL waking up
+E/AudioFlinger(  574): AnpUD Track not ready, Framesready=4458 Frame count = 4458
+E/AudioResampler(  574): Unsupported sample format, 32 bits, 2 channels
+E/resampler(  574): create_resampler() In SR 96000 Out SR 88200 channels 2
+E/AudioSRC(  574): resampler created with return code=0 number of channels = 2
+E/PCM-Lat (  574): ************************ Start_AT---IsStart[0]
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/SPOTIFY (  700): Spotify ConnectionNotify event(0-Login, 1-Logout, rest Error) = 7
+E/SPOTIFY (  700): Spotify ConnectionNotify login error event = 7
+E/LUCI_DISCOVERY(  576): makeLSSDPPacket() Hegal_H190
+E/LUCI_DISCOVERY(  576): sendData() success with 275 bytes
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=4 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=4 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=4 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/LUCI_DISCOVERY(  576): RXed M-Search request from  192.168.0.103:48388
+E/LUCI_DISCOVERY(  576): handleMSearchRequest client already in list..
+E/LUCI_DISCOVERY(  576): RXed M-Search request from  192.168.0.103:48388
+E/LUCI_DISCOVERY(  576): handleMSearchRequest client already in list..
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=4 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/LUCI_DISCOVERY(  576): makeLSSDPPacket() Hegal_H190
+E/LUCI_DISCOVERY(  576): sendData() success with 275 bytes
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+>E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/LUCI_DISCOVERY(  576): makeLSSDPPacket() Hegal_H190
+E/LUCI_DISCOVERY(  576): sendData() success with 275 bytes
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/LUCI_DISCOVERY(  576): makeLSSDPPacket() Hegal_H190
+E/LUCI_DISCOVERY(  576): sendData() success with 275 bytes
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/LUCI_DISCOVERY(  576): makeLSSDPPacket() Hegal_H190
+E/LUCI_DISCOVERY(  576): sendData() success with 275 bytes
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....
+E/DMR     (  698): ---- in playback notify  :3 ---
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=0 mCRC=0 mDataLen=5 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread wait over MID 49....
+E/luci_udp_control(  576): LUCINetworkController::write::  RemoteID =0 CommandType =2 Command=49 CommandStatus=1 mCRC=0 mDataLen=0 SocketInfo=21
+E/LUCI_SERVER(  576): Luci Server Thread waiting for packets....

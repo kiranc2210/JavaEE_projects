@@ -1,0 +1,7 @@
+<classpath>
+  <container id="LearnersAcademy!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="D:/SimpliLearn-Part-2/LearnersAcademy/WebContent/WEB-INF/lib/mysql-connector-java-8.0.20.jar">
+      <source-attachment-path>/Servers</source-attachment-path>
+    </entry>
+  </container>
+</classpath>
